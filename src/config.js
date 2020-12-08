@@ -1,4 +1,6 @@
 const config = {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY:  "pk_test_51HvoB0JvZm0SD0tiqfeVXeqK7luRo4Ph53YYyXwzQQlrGNxcTUp2iyo85leYW1GaPyI958u3wf0cAFi3rghPxHvV003TjreUhm",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-uploads-james-corey",
