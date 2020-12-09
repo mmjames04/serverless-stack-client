@@ -31,13 +31,9 @@ export default function Home() {
     onLoad();
   }, [isAuthenticated]);
 
-  // function loadNotes() {
-  //   return API.get('notes', '/notes');
-  // }
   function loadNotes() {
-    return API.put('notes', '/notes');
+    return API.get('notes', '/notes');
   }
-
 
   function renderNotesList(notes) {
     return (
